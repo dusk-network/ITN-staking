@@ -42,7 +42,7 @@ contract Unipool is LPTokenWrapper {
     bool public stakingPeriodInitialized = false;
 
     address public owner;
-    uint256 public constant DURATION = 10 minutes;
+    uint256 public constant DURATION = 43 days;
 
     uint256 public periodFinish = 0;
     uint256 public rewardRate = 0;
